@@ -1,0 +1,69 @@
+*{
+    align-items: center;
+    text-align: center;
+    place-items: center;
+}
+body{
+    padding-top: 3rem;
+}
+#timer,#casting{
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.cast{
+    padding-top: 2rem;
+}
+#casting{
+    color: gray;
+}
+.btn{
+    display: flex;
+    gap: 25px;
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#start-btn,#pause-btn,#reset-btn,#cast-btn{
+    width: 6rem;
+    height: 2.5rem;
+    font-size: larger;
+}
+
+#start-btn{
+    border: 2px solid green;
+    color: green;
+}
+#start-btn:hover{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+}
+#pause-btn:hover{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+}
+#reset-btn:hover{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+}
+#cast-btn:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+#pause-btn{
+    border: 2px solid red;
+    color: red;
+}
+#reset-btn{
+    border: 2px solid orange;
+    color: orange;
+}
+#cast-btn{
+    border: 2px solid black;
+    color: black;
+}
